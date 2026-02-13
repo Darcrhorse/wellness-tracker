@@ -1,6 +1,6 @@
 {
-  "updated": "2026-02-13T19:30:00Z",
-  "quitStart": "2026-02-11T17:00:00Z",
+  "updated": "2026-02-13T19:36:48Z",
+  "quitStart": "",
   "plan": {
     "week1_2": 3,
     "week3_4": 2,
@@ -12,22 +12,23 @@
     "deliveredPer": 1.1
   },
   "today": {
-    "smokes": 1,
-    "avgMood": 3,
-    "date": "2026-02-13"
+    "smokes": 0,
+    "avgMood": null,
+    "date": "2026-02-13T19:36:48Z"
   },
   "logs": [
-    {"date": "2026-02-13", "smokes": 1, "avgMood": 3}
+    {
+      "date": "",
+      "smokes": 0,
+      "avgMood": null
+    },
+    {
+      "date": "",
+      "smokes": 0,
+      "avgMood": null
+    }
   ],
   "watch": {
-    "heartRate": null,
-    "stress": null,
-    "spo2": null,
-    "sleepDuration": null,
-    "sleepFormatted": null,
-    "steps": null,
-    "location": "home",
-    "activityScore": null,
     "error": "ha_timeout"
   }
 }
