@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T20:45:02Z",
+  "updated": "2026-02-13T21:00:02Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -29,13 +29,27 @@
     }
   ],
   "watch": {
-    "heartRate": null,
-    "stress": null,
-    "spo2": null,
-    "sleepDuration": null,
-    "sleepFormatted": null,
+    "heartRate": 74,
+    "stress": 53,
+    "spo2": 99,
+    "sleepDuration": 363,
+    "sleepFormatted": "6h 3m",
     "steps": null,
     "location": "home",
-    "activityScore": null
+    "activityScore": null,
+    "sleepAndroid": {
+      "duration": 375,
+      "phases": {
+        "deep": 181,
+        "light": 45,
+        "rem": 6,
+        "awake": 36
+      },
+      "snoreCount": 117,
+      "talkCount": 4,
+      "start": "2026-02-13T10:16:17.014Z",
+      "end": "2026-02-13T16:31:42.578Z",
+      "tracking": false
+    }
   }
 }
