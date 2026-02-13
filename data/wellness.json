@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T20:30:07Z",
+  "updated": "2026-02-13T20:45:02Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -12,9 +12,9 @@
     "deliveredPer": 1.1
   },
   "today": {
-    "smokes": 0,
-    "avgMood": null,
-    "date": "2026-02-13T20:30:07Z"
+    "date": "2026-02-13",
+    "smokes": 1,
+    "avgMoodToday": 3
   },
   "logs": [
     {
@@ -29,6 +29,13 @@
     }
   ],
   "watch": {
-    "error": "ha_timeout"
+    "heartRate": null,
+    "stress": null,
+    "spo2": null,
+    "sleepDuration": null,
+    "sleepFormatted": null,
+    "steps": null,
+    "location": "home",
+    "activityScore": null
   }
 }
