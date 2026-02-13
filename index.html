@@ -1,27 +1,30 @@
 <!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Wellness — Inicio</title>
-  <link rel="stylesheet" href="/wellness-tracker/css/style.css"/>
-</head>
-<body>
-  <div class="header">
-    <div class="container">
-      <div class="h1">Panel de Bienestar</div>
-      <div class="muted small">Vistas públicas y clínicas</div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="card">
-      <div class="h2">Selecciona una vista</div>
-      <div class="grid grid-2">
-        <a class="card link" href="/wellness-tracker/partner/">Vista de Pareja</a>
-        <a class="card link" href="/wellness-tracker/clinical/">Vista Clínica</a>
-      </div>
-      <p class="footer small">Sitio estático (GitHub Pages). Datos anónimos y cacheados.</p>
-    </div>
-  </div>
-</body>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission Control</title>
+    <meta name="description" content="AI Agent Dashboard — Monitor, manage, and dispatch your AI agents" />
+    <meta name="author" content="Mission Control" />
+    <meta property="og:title" content="Mission Control" />
+    <meta property="og:description" content="AI Agent Dashboard" />
+    <meta property="og:type" content="website" />
+    <script>
+      // GH Pages 404 redirect handler: support redirect to index with encoded path
+      (function() {
+        var l = window.location;
+        if (l.search && l.search.indexOf('?/') === 0) {
+          var decoded = l.search.slice(2).split('&').map(function(s) { return s.replace(/~and~/g, '&'); }).join('?');
+          var url = l.pathname.replace(/\/?$/, '/') + decoded + l.hash;
+          window.history.replaceState(null, null, url);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/wellness-tracker/assets/index-Ckzm_Kd3.js"></script>
+    <link rel="stylesheet" crossorigin href="/wellness-tracker/assets/index-eNd8jHjQ.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
