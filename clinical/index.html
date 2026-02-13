@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Bienestar — Vista Clínica</title>
+  <link rel="stylesheet" href="/wellness-tracker/css/style.css"/>
+</head>
+<body>
+  <div class="pin-overlay" id="pinOverlay" aria-modal="true" role="dialog">
+    <div class="pin-box">
+      <div class="h2">Ingrese el código de acceso</div>
+      <input id="pinInput" class="pin-input" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="one-time-code" placeholder="••••••" aria-label="PIN de 6 dígitos"/>
+      <div id="pinError" class="small" style="height:1.25rem;color:#ef4444"></div>
+      <button id="pinBtn" style="margin-top:.5rem;padding:.5rem .75rem;border:1px solid var(--border);background:#0e0e10;color:#e5e5e5;border-radius:8px;width:100%">Acceder</button>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="container">
+      <div class="h1">Seguimiento Clínico — Carlos R.</div>
+      <div class="badge">Acceso restringido</div>
+    </div>
+  </div>
+
+  <div class="container" id="app" style="display:none">
+    <div class="card">
+      <div class="h2">Resumen del paciente</div>
+      <div id="resumen" class="grid"></div>
+    </div>
+
+    <div class="card">
+      <div class="h2">Registro de consumo y estado de ánimo (14 días)</div>
+      <canvas id="comboChart" width="800" height="220" aria-label="Consumo y ánimo"></canvas>
+      <div class="small muted" id="comboLegend">Barras: cigarrillos | Línea: ánimo</div>
+      <div style="overflow:auto;margin-top:.5rem">
+        <table class="table small" id="logTable">
+          <thead><tr><th>Fecha</th><th>Cigarrillos</th><th>Ánimo</th><th>Nicotina (mg, entregada)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="h2">Datos del reloj</div>
+      <div id="watch" class="grid grid-2"></div>
+      <div class="small muted" id="watchNote">Umbrales: FC reposo 60–85 ok, >85 elevada, >100 preocupante; SpO₂ ≥95% normal; Sueño ≥7h.</div>
+    </div>
+
+    <div class="card">
+      <div class="h2">Hitos de recuperación</div>
+      <div class="tl" id="hitos"></div>
+    </div>
+
+    <div class="card">
+      <div class="h2">Referencias bibliográficas</div>
+      <ul class="small">
+        <li>Persico AM (1992) — Cambios de FC al dejar de fumar</li>
+        <li>Minami J et al (1999) — Recuperación cardiovascular</li>
+        <li>Yotsukura M et al (1998) — Mejora de VFC</li>
+        <li>Haasova M et al (2013) — El ejercicio reduce antojos (IPD meta)</li>
+        <li>U.S. Surgeon General Reports — Tiempos de recuperación</li>
+        <li>OMS — Guías de SpO₂</li>
+        <li>AASM/SRS — Recomendaciones de sueño</li>
+        <li>NCI — Síntomas de abstinencia y apoyo de pareja</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h2">Nota sobre el método de reducción</div>
+      <p class="small">El paciente está siguiendo un plan de reducción gradual (tapering) en lugar de cesación abrupta. La evidencia sugiere que la reducción parcial del consumo produce beneficios proporcionales, aunque la cesación completa sigue siendo el objetivo final. Los beneficios no se "reinician" completamente con un consumo reducido — son acumulativos.</p>
+    </div>
+
+    <div class="footer" id="footer">Última actualización: —</div>
+  </div>
+  <script src="/wellness-tracker/js/clinical.js"></script>
+</body>
+</html>

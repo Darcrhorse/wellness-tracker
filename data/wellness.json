@@ -1,0 +1,33 @@
+{
+  "updated": "2026-02-13T19:30:00Z",
+  "quitStart": "2026-02-11T17:00:00Z",
+  "plan": {
+    "week1_2": 3,
+    "week3_4": 2,
+    "week5_6": 1,
+    "week7_plus": 0,
+    "baseline": 5,
+    "brand": "Marlboro Red",
+    "nicotinePer": 10.9,
+    "deliveredPer": 1.1
+  },
+  "today": {
+    "smokes": 1,
+    "avgMood": 3,
+    "date": "2026-02-13"
+  },
+  "logs": [
+    {"date": "2026-02-13", "smokes": 1, "avgMood": 3}
+  ],
+  "watch": {
+    "heartRate": null,
+    "stress": null,
+    "spo2": null,
+    "sleepDuration": null,
+    "sleepFormatted": null,
+    "steps": null,
+    "location": "home",
+    "activityScore": null,
+    "error": "ha_timeout"
+  }
+}

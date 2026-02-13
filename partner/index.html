@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Bienestar — Vista de Pareja</title>
+  <link rel="stylesheet" href="/wellness-tracker/css/style.css"/>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="h1">Carlos está dejando de fumar. Este es su progreso real, respaldado por datos médicos.</div>
+      <div class="badge">Vista para la pareja (Kate)</div>
+    </div>
+  </div>
+  <div class="container" id="app">
+    <div class="card">
+      <div class="h2">Qué esperar</div>
+      <div class="tl" id="timeline"></div>
+    </div>
+
+    <div class="card">
+      <div class="h2">Progreso</div>
+      <div id="progress-kpis"></div>
+      <div class="progress" aria-label="Progreso diario"><span id="progress-bar"></span></div>
+    </div>
+
+    <div class="card">
+      <div class="h2">Estado de ánimo (últimos 14 días)</div>
+      <canvas id="moodChart" width="600" height="180" aria-label="Gráfica de estado de ánimo"></canvas>
+      <p class="small muted">Los días 2-7 son los más difíciles. La irritabilidad es un síntoma médico, no una decisión personal.</p>
+    </div>
+
+    <div class="card">
+      <div class="h2">Consejos para la pareja</div>
+      <ul>
+        <li>Cuando esté irritable, dale 10 minutos a solas — no es rechazo, es manejo del estrés.</li>
+        <li>Evita frases como "solo déjalo" — la adicción a la nicotina es real y documentada médicamente.</li>
+        <li>Celebra los días buenos sin presionar sobre los malos.</li>
+        <li>El ejercicio reduce los antojos significativamente — invítalo a caminar (Haasova 2013).</li>
+        <li>Este proceso dura semanas, no días. La paciencia es parte del tratamiento.</li>
+      </ul>
+    </div>
+
+    <div class="footer" id="footer">Datos actualizados cada 15 minutos. Última actualización: —</div>
+  </div>
+  <script src="/wellness-tracker/js/partner.js"></script>
+</body>
+</html>
