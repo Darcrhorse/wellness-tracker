@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T23:15:01Z",
+  "updated": "2026-02-15T23:30:02Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -13,10 +13,20 @@
   },
   "today": {
     "date": "2026-02-15",
-    "smokes": 0,
-    "avgMoodToday": 6.75
+    "smokes": 1,
+    "avgMoodToday": 7.17
   },
   "logs": [
+    {
+      "date": "",
+      "smokes": 0,
+      "avgMood": null
+    },
+    {
+      "date": "",
+      "smokes": 0,
+      "avgMood": null
+    },
     {
       "date": "",
       "smokes": 0,
