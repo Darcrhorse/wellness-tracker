@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T15:00:02Z",
+  "updated": "2026-02-15T15:15:02Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -64,9 +64,9 @@
     }
   ],
   "watch": {
-    "heartRate": 63,
-    "stress": 52,
-    "spo2": 99,
+    "heartRate": 62,
+    "stress": 41,
+    "spo2": 98,
     "sleepDuration": null,
     "sleepFormatted": null,
     "steps": 61,
