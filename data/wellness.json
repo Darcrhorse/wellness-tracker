@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T14:45:02Z",
+  "updated": "2026-02-16T15:00:08Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -12,9 +12,9 @@
     "deliveredPer": 1.1
   },
   "today": {
-    "date": "2026-02-16",
     "smokes": 0,
-    "avgMoodToday": null
+    "avgMood": null,
+    "date": "2026-02-16T15:00:08Z"
   },
   "logs": [
     {
@@ -88,28 +88,5 @@
       "avgMood": null
     }
   ],
-  "watch": {
-    "heartRate": 58,
-    "stress": 59,
-    "spo2": 98,
-    "sleepDuration": 1,
-    "sleepFormatted": "0h 1m",
-    "steps": 4751,
-    "location": "home",
-    "activityScore": 8,
-    "sleepAndroid": {
-      "duration": 375,
-      "phases": {
-        "deep": 181,
-        "light": 45,
-        "rem": 6,
-        "awake": 36
-      },
-      "snoreCount": 117,
-      "talkCount": 4,
-      "start": "2026-02-13T10:16:17.014Z",
-      "end": "2026-02-13T16:31:42.578Z",
-      "tracking": false
-    }
-  }
+  "watch": {}
 }
