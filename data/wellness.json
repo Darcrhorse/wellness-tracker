@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T01:00:02Z",
+  "updated": "2026-02-16T01:15:01Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -13,7 +13,7 @@
   },
   "today": {
     "date": "2026-02-15",
-    "smokes": 1,
+    "smokes": 2,
     "avgMoodToday": 7.17
   },
   "logs": [
@@ -81,10 +81,15 @@
       "date": "",
       "smokes": 0,
       "avgMood": null
+    },
+    {
+      "date": "",
+      "smokes": 0,
+      "avgMood": null
     }
   ],
   "watch": {
-    "heartRate": 79,
+    "heartRate": 83,
     "stress": 45,
     "spo2": 99,
     "sleepDuration": null,
