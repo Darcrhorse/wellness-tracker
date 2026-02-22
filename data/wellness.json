@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-22T00:45:02Z",
+  "updated": "2026-02-22T01:00:02Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -135,11 +135,11 @@
   ],
   "watch": {
     "heartRate": 89,
-    "stress": 53,
-    "spo2": 99,
+    "stress": 49,
+    "spo2": 98,
     "sleepDuration": null,
     "sleepFormatted": null,
-    "steps": 717,
+    "steps": 929,
     "location": "not_home",
     "activityScore": 2,
     "sleepAndroid": {
