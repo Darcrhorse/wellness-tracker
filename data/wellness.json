@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-22T19:15:01Z",
+  "updated": "2026-02-22T19:30:02Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -150,7 +150,7 @@
     "sleepDuration": null,
     "sleepFormatted": null,
     "steps": 332,
-    "location": "home",
+    "location": "not_home",
     "activityScore": 1,
     "sleepAndroid": {
       "duration": 375,
