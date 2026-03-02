@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T19:15:01Z",
+  "updated": "2026-03-02T19:30:07Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -12,9 +12,9 @@
     "deliveredPer": 1.1
   },
   "today": {
-    "date": "2026-03-02",
     "smokes": 0,
-    "avgMoodToday": null
+    "avgMood": null,
+    "date": "2026-03-02T19:30:07Z"
   },
   "logs": [
     {
@@ -64,27 +64,6 @@
     }
   ],
   "watch": {
-    "heartRate": 60,
-    "stress": 41,
-    "spo2": 97,
-    "sleepDuration": null,
-    "sleepFormatted": null,
-    "steps": 51,
-    "location": "not_home",
-    "activityScore": 5,
-    "sleepAndroid": {
-      "duration": 375,
-      "phases": {
-        "deep": 181,
-        "light": 45,
-        "rem": 6,
-        "awake": 36
-      },
-      "snoreCount": 117,
-      "talkCount": 4,
-      "start": "2026-02-13T10:16:17.014Z",
-      "end": "2026-02-13T16:31:42.578Z",
-      "tracking": false
-    }
+    "error": "ha_timeout"
   }
 }
