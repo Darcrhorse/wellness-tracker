@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T17:30:02Z",
+  "updated": "2026-03-02T17:45:01Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -61,21 +61,16 @@
       "date": "",
       "smokes": 0,
       "avgMood": null
-    },
-    {
-      "date": "",
-      "smokes": 0,
-      "avgMood": null
     }
   ],
   "watch": {
-    "heartRate": 62,
-    "stress": 20,
-    "spo2": 99,
+    "heartRate": 60,
+    "stress": 31,
+    "spo2": 96,
     "sleepDuration": 1,
     "sleepFormatted": "0h 1m",
-    "steps": null,
-    "location": "not_home",
+    "steps": 51,
+    "location": "home",
     "activityScore": 5,
     "sleepAndroid": {
       "duration": 375,
