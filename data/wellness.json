@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T05:45:01Z",
+  "updated": "2026-03-03T06:00:02Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -12,7 +12,7 @@
     "deliveredPer": 1.1
   },
   "today": {
-    "date": "2026-03-02",
+    "date": "2026-03-03",
     "smokes": 0,
     "avgMoodToday": null
   },
@@ -55,8 +55,8 @@
   ],
   "watch": {
     "heartRate": null,
-    "stress": null,
-    "spo2": null,
+    "stress": 57,
+    "spo2": 96,
     "sleepDuration": null,
     "sleepFormatted": null,
     "steps": null,
