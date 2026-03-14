@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14T09:45:08Z",
+  "updated": "2026-03-14T10:00:08Z",
   "quitStart": "",
   "plan": {
     "week1_2": 3,
@@ -14,10 +14,8 @@
   "today": {
     "smokes": 0,
     "avgMood": null,
-    "date": "2026-03-14T09:45:08Z"
+    "date": "2026-03-14T10:00:09Z"
   },
   "logs": [],
-  "watch": {
-    "error": "ha_timeout"
-  }
+  "watch": {}
 }
